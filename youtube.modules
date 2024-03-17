@@ -2,7 +2,7 @@
 #!name=Loại bỏ Quảng cáo trên YouTube
 #!desc=Loại bỏ Quảng cáo trên YouTube (Beta)
 #Tg：https://t.me/it_cast
-#Cập nhật: 29/01/2023
+#Cập nhật: 14/03/2024
 # Loại bỏ quảng cáo xuất hiện trong Luồng, Video, Tìm kiếm và Shorts,
 # Loại bỏ quảng cáo video trong Shorts
 # Loại bỏ nút tải lên dưới cùng
@@ -11,7 +11,7 @@
 
 [Script]
 # Module này đã đầy đủ, không cần sử dụng các quy tắc khác để tránh việc ghi đè.
-youtube = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting),requires-body=1,binary-body-mode=1,max-size=3145728,script-path=https://raw.githubusercontent.com/itcast-l/shadowrocket-module/main/js/Youtube.js
+youtube = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting),requires-body=1,binary-body-mode=1,max-size=3145728,script-path=https://raw.githubusercontent.com/Dohungx/shadowrocket-module/main/youtube.js
 
 [URL Rewrite]
 # Sử dụng Mock để giảm chi phí
